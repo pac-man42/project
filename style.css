@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    height:100%;
+	width:100%;
+}
+body{
+	background: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+    font-family: Roboto, Roboto Regilar, "DINPro Bold", "Trebuchet MS", "Times New Roman", Arial, Times;
+    font-weight: lighter;
+    color: #2F3236;
+    font-size: 1.000em;
+}
+a {
+    font-size: 0.875em;
+    color: #2F3236;
+    text-decoration: none;
+}
+li { list-style-type: none; }
+
+h1,h2,h3 { font-weight: lighter; }
+
+button, select, input { outline: none; }
+
+                                    /*HEADER*/
+
+header {
+    width: 960px;
+    margin: 0 auto;
+}
+header ul li {
+    display: block;
+    float: left;
+    margin-right: 0.9em;
+    margin-top: 1.3em;
+}
+
+header ul li a:hover { color: #F6A10E; }
+
+header ul+ul  { float: right; }
+
+#logo_search {
+    display: inline-block;
+    margin-top: 4.2%;
+    width: 960px;
+}
+#logo_search input {
+    text-align: left; 
+    background: url(img/search.png)no-repeat;
+    background-position: 97% 50%;
+    height:60px;
+    width:565px;
+    font-size: 1.125em;
+    border: 1px #999999 solid;
+    text-indent: 1.250em ;
+    color:#999999;
+    float: right;
+    
+}
+
+                                /*INFO_BLOCK*/
+
+#info_block {
+    background: url(img/japan_bg.png)no-repeat;
+    width: 1000px;
+    height: 430px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#info_block .closer {
+    display: inline-block;
+    float: right;
+    width: 100%;
+}
+#info_block .closer a {
+    color: #e7e7e7;
+    background: url(img/Imported.png)no-repeat;
+    float: right;
+    background-position: 100% 50%;
+    margin: 4% 1% 0 0;
+    padding: 1% 4% 0 0;
+    height: 2em;
+}
+#info_block .closer a:hover{ 
+    color: #F6A10E;
+    background: url(img/Imported_aktiv.png)no-repeat;
+    background-position: 100% 50%;
+}
+#info_block h1 {
+    color: #F6A10E;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2.250em;
+    clear: both;
+}
+#info_block h2 {
+    color: #E7E7E7;
+    text-align: center;
+    font-size: 1.5em;
+}
+#instruction ul li:first-child {
+    padding: 0;
+}
+#instruction ul li {
+    color: #E7E7E7;
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 0.875em;
+    padding-left: 9.7em;
+}
+#instruction ul {
+    margin-top: 3%;
+    margin-left: 4%;
+    height: 80px;
+}
+#proces_uslugi ul {
+    margin-left: 40px;
+}
+#proces_uslugi li {
+    float: left;
+    display: block;
+    font-size: 1.125em;
+    width: 132px;
+    margin-right: 133px;
+}
+#proces_uslugi li:last-child {
+    margin-right: 0px;
+}
+#proces_uslugi a {
+    color: #F6A10E;
+    font-weight: bolder;
+}
+#proces_uslugi img {
+    margin-top: 15%;
+}
+                                    /*INFO_NAV*/
+.info_nav {
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.info_nav ul li {
+    background: url(img/line.png) #2F3236 0px 0px no-repeat;
+    float: left;
+    height: 80px;
+    width: 25%;
+}
+.info_nav ul li a {
+    display: block;
+    color: #E7E7E7;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 28px 20px 31px 20px;
+    text-align: center;
+}
+
+                                    /*NEWS*/
+#news {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+}
+#news img {
+    padding: 0 20px 0 20px;
+}
+#news ul li {
+    display: block;
+    float: left;
+    margin-right: 57px;
+    font-size: 0.875em;
+}
+#news ul li span {
+    font-weight: bold;
+}
+#news .kurs {
+    margin-left: 3em;
+    background: url(img/kurs_up.png)no-repeat;
+    background-position: 50% 80%;
+}
+                                    /*PROPOSAL*/
+
+#proposal h1 {
+    font-weight: bold;
+    font-size: 1.750em;
+    padding: 40px 0 0 40px;
+    font-family: Roboto, Roboto Regilar;
+}
+#proposal p + p {
+    padding-top: 30px;
+}
+#proposal p {
+    padding: 20px 0 0 40px;
+    display: inline-block;
+}
+#proposal a {
+    color: #F6A10E;
+    font-weight: bolder;
+    font-size: 1.125em;
+}
+#proposal {
+    width: 960px;
+    height: 273px;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+}
+#proposal #auto {
+    width: 300px;
+    height: 273px;
+    background: #ffffff;
+    border: 1px solid #D9CFBA;
+    float: left;
+}
+#proposal img {
+    float: right;
+    position: relative;
+    bottom: 24px;
+}
+#proposal #auto_parts {
+    width: 320px;
+    height: 273px;
+    border: 1px solid #D9CFBA; 
+    float: left;
+    margin-left: 1.5em;
+}
+#proposal #write_to_us {
+    width: 272px;
+    height: 273px;
+    border: 1px solid #D9CFBA;
+    float: left;
+    margin-left: 1em;
+}
+#proposal #auto:hover { background: #F3EFE6; }
+#proposal #auto_parts:hover { background: #F3EFE6; }
+#proposal #write_to_us:hover { background: #F3EFE6; }
+
+                                /*SEARCH*/
+
+#search {
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+    clear: both;
+    overflow: hidden;   
+}
+#search p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 0.875em;
+    float: left;
+}
+#search p+p {
+    display: inline-block;
+    float: right;
+}
+#search input {
+    text-align: left; 
+    height:60px;
+    width:720px;
+    font-size: 1.125em;
+    border: 1px #999999 solid;
+    text-indent: 40px;
+    color:#999999;
+    background: url(img/skrepka.png)no-repeat;
+    background-position: 2% 50%;
+    float: left;
+}
+#button {
+}
+#button a{
+    font-size: 1.125em;
+    color: #e7e7e7;
+    background: url(img/button_strelka.png)no-repeat;
+    background-position: 93% 55%;
+    background-color: black;
+    padding: 2% 4% 2% 3%;
+    float: left;
+} 
+
+                                /*TOVARI*/
+
+#tovari {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px; 
+    border-top: 1px solid #999999;
+}
+#categories {
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+}
+#categories li {
+    padding-bottom: 0.4em;
+}
+#categories > a {
+    font-size: 0.750em;
+    color: #F6A10E;
+    margin: 50px 0 20px 20px;
+    display: block;
+    font-weight: bolder;
+}
+#categories li a {
+    font-size: 1em;
+    color: #2F3236;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+#categories li:hover {
+    background: url(img/marker.png)no-repeat;
+    background-position: 2% 40%;
+}
+#categories li a:hover {
+    color: #F6A10E;
+}
+#opisanie_tovara {
+    width: 73%;         
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    margin-left: 6%;
+    border-bottom: 1px solid #999999;
+}
+#opisanie_tovara .tovar {
+    width: 240px;
+    display: inline-block;
+    overflow: hidden;    
+    float: left;
+    margin-bottom: 3em;
+}
+#opisanie_tovara .tovar img {
+    background: url(img/tovar_bg.png)no-repeat;
+    width: 240px;
+    height: 180px;
+}
+#opisanie_tovara p { font-weight: normal; }
+#opisanie_tovara p{
+    padding-left: 20px;
+}
+#opisanie_tovara .tovar a {
+    color: #F6A10E;
+    font-size: 0.875em;
+    padding-top: 5px;
+    display: block;
+    padding-left: 20px;
+}
+#opisanie_tovara .tovar p + p {
+    font-size: 1.125em;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+#opisanie_tovara .tovar span {
+    font-size: 0.875em;
+    padding-left: 20px;
+    display: block;
+    color: #999999;
+}
+
+                                    /*NAV*/
+
+#nav {
+    width: 73%;
+    position: relative;
+    left: 26%;
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+    overflow: hidden;
+}
+#nav .sled_st {
+    float: right;
+    background: url(img/page_strelka_r.png)no-repeat;
+    background-position: 100% 50%;
+    padding-right: 2.5em;
+    color: #999999;
+    font-weight: bolder;
+}
+#nav .sled_st:hover {
+    color: #2F3236;
+    background: url(img/page_strelka_r_hover.png)no-repeat;
+    background-position: 100% 50%;
+}
+#nav .pred_st {
+    float: left;
+    background: url(img/page_strelka_l.png)no-repeat;
+    background-position: 0% 50%;
+    padding-left: 2.5em;
+    color: #999999;
+    font-weight: bolder;
+}
+#nav .pred_st:hover {
+    color: #2F3236;
+    background: url(img/page_strelka_l_hover.png)no-repeat;
+    background-position: 0% 50%;
+}
+#nav ul {
+    margin-left: 30%;
+}
+#nav ul li {
+    display: block;
+    float: left;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+#nav ul li a {
+    color: #999999;
+}
+#nav ul li a:active {
+    background: url(img/active_page.png)no-repeat;
+    padding: 0.4em 0.6em 1em 1em;
+}
+
+                                    /*FOOTER*/
+
+footer {
+    width: 100%;
+    background: #2F3236;
+    clear: both;
+    color: #ffffff;
+    overflow: hidden;
+}
+#search_footer {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    overflow: hidden;
+}
+#search_footer p {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    font-size: 0.875em;
+    float: left;
+}
+#search_footer p+p {
+    display: inline-block;
+    font-size: 0.875em;
+    font-weight: bold;
+    float: right;
+}
+#search_footer input {
+    text-align: left; 
+    height:60px;
+    width:81%;
+    font-size: 1.125em;
+    border: 1px #999999 solid;
+    text-indent: 40px;
+    color:#999999;
+    background: #ffffff url(img/pismo.png)no-repeat;
+    background-position: 2% 50%;
+    float: left;
+}
+#button_2 {
+}
+#button_2 a{
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #333333;
+    float: left;
+    background: #D9CFBA;
+    padding: 1.9% 4% 2% 3%;
+} 
+#soc_seti {
+    margin-top: 8em;
+    margin-bottom: 2.5em;
+}
+#soc_seti p {
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #646567;
+    display: inline-block;
+    margin-right: 2.5em;
+}
+#soc_seti a {
+    color: #ffffff;
+    font-size: 1.125em;
+    padding: 0.3em 1em 0.3em 2.3em;
+    background: url(img/vk.png)no-repeat;
+    background-position: 0% 50%;
+    width: 30px;
+}
+#all {
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid #646567;
+    padding-top: 2.5em;
+}
+#all ul li a {
+    color: #ffffff;
+}
+#all ul {
+    padding-left: 1em;
+    padding-right: 3em;
+    display: table-cell;
+}
+#all .o_nas, .torg, .oplata_dostavka, .help {
+    color: #646567;
+    font-size: 1.125em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+#all p {
+    margin: 2.5em 0em 2em 1em;
+    color: #646567;
+    font-size: 0.875em;
+}
